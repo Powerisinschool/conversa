@@ -1,0 +1,30 @@
+{
+  "name": "conversa",
+  "version": "1.0.0",
+  "description": "A simple messaging app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Powerisinschool/conversa.git"
+  },
+  "keywords": [
+    "Messaging"
+  ],
+  "author": "Tolulope Olagunju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Powerisinschool/conversa/issues"
+  },
+  "homepage": "https://github.com/Powerisinschool/conversa#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
