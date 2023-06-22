@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.conversa-root {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.dashboard-container {
+    display: flex;
+    align-items: stretch;
+}
+
+aside {
+    background-color: #f2f2f2;
+    width: 250px;
+    padding: 20px;
+}
+
+.user-profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.chat-container {
+    border: 1px solid #ccc;
+    height: 400px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.message .avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.message-content {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #999;
+}
